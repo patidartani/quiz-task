@@ -1,0 +1,147 @@
+.main{
+          width: 100%;
+          height: 47.5vmax;
+          background: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.WelcomeScreen{
+          width: 100%;
+          height: 8vmax;
+          margin-bottom: 20%;
+          color: #fff;    
+          display: flex; 
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.WelcomeScreen button{
+          background: none;
+          color: #fff;
+          border:1px solid #fff ;
+          padding: 0.3vmax  2vmax;
+}
+.MainQuestion {
+          width: 100%;
+          height: 100%;
+          background: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.MainQuestion .QuestionPage {
+          width: 50%;
+          padding: 3vmax;
+          height: 25vmax;
+          display: flex; 
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+          color: #fff;
+          background: rgb(20, 20, 20);
+}
+.MainQuestion .QuestionPage .Questions {
+          width: 100%;
+          height: auto;
+}
+.Questions p{
+          font-size: 1.5vmax;
+}
+
+        .opts{
+          width: 100%;
+          height: 18vmax;
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+        .opts button{
+       background: none;
+       border: none;
+       color: #9d9797;
+        }
+        .dot {
+          height: 10px;
+          width: 10px;
+          background-color: transparent;
+          border: 2px solid #5c5b5b;
+          border-radius: 50%;
+          display: inline-block;
+          margin-right: 5px; 
+          transition: background-color 0.3s ease; 
+        }  
+        .show-dot {
+          background-color: #9f9c9c; 
+        }
+ .btns{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+ }
+ .btns input{
+    background:none;
+    border: 1px solid #ffffff8f;
+    color: #fff;
+    padding: 0.3vmax 2vmax;
+ }
+.restart{
+         background: none; 
+         border: 1px solid #fff;
+         color: #fff;
+         padding: 0.3vmax 3vmax;
+}
+
+.Results{
+          height: 20vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+
+}
+ .rslt{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 10vmax;
+ }
+
+
+
+
+@media (max-width:600px) {
+          .WelcomeScreen{
+                    width: 100%;
+                    height: 8vmax;
+                  
+          }   
+          .MainQuestion {
+                    width: 100%;
+                    height: 100%;
+          }
+          .MainQuestion .QuestionPage {
+                    width: 100%;
+                    height: 50vmax;
+                   
+          }
+}
+@media (min-width:600px) and (max-width:1200px) {
+          .WelcomeScreen{
+                    width: 100%;
+                    height: 8vmax;
+                  
+          }   
+          .MainQuestion {
+                    width: 100%;
+                    height: 100%;
+          }
+          .MainQuestion .QuestionPage {
+                    width: 100%;
+                    height: 50vmax;
+                   
+          }
+
+}
